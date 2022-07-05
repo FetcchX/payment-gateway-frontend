@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Eds';
+  src: url('/fonts/EudoxusSans-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'Holtz';
+  src: url('/fonts/Holtzberg-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Edds';
+  src: url('/fonts/EudoxusSans-ExtraBold.woff2');
+}
+
+@font-face {
+  font-family: 'Jakarta';
+  src: url('/fonts/PlusJakartaSans-ExtraBold.woff2');
+}
+
+.bg-gradient {
+	background: rgb(157, 78, 221);
+	background: radial-gradient(
+		ellipse at top left,
+		rgba(157, 78, 221, 1) 0%,
+		rgba(0, 0, 0, 1) 40%,
+		rgba(0, 8, 20, 1) 100%
+	);
+}
+
+.st0{fill-rule:evenodd;clip-rule:evenodd;}
+
+.wagpay::after {
+  content: "";
+  background: yellow; 
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  width: 100%;
+}
